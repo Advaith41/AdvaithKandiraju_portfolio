@@ -32,9 +32,6 @@ The website is designed using standard web technologies:
 
 portfolio/ ├── index.html # Main HTML structure ├── styles.css # Custom CSS for styling ├── script.js # JavaScript for functionality ├── assets/ # Images, videos, and other media ├── profile-photo.jpeg ├── about.jpg ├── vid.mp4 └── [other images, videos]
 
-markdown
-Copy
-Edit
 
 ### Key Components:
 - **Profile Sidebar**: Displays personal information and contact details.
@@ -46,14 +43,11 @@ Edit
 You can easily modify the content by updating the following sections:
 
 1. **Profile Info**: Change the profile name, photo, and contact details in the `index.html`.
-   ```html
+   
    <h2 class="profile-name">Advaith Kandiraju</h2>
    <p class="profile-degree">MS Robotics</p>
 About Section: Update the introduction text and technology stack in the index.html.
 
-html
-Copy
-Edit
 <p class="intro-text">I am currently a Robotics Engineer at Rainier Labs...</p>
 <ul class="tech-list">
     <li>Nvidia Isaac Lab</li>
@@ -62,9 +56,6 @@ Edit
 </ul>
 Projects Section: Add new projects by updating the script.js file. The carousel uses dynamic data for projects:
 
-javascript
-Copy
-Edit
 {
     title: "New Project Title",
     description: "A brief description of the new project.",
@@ -73,19 +64,9 @@ Edit
 }
 Experience Section: Update company experiences and responsibilities in index.html. Each company section can be dynamically displayed using JavaScript.
 
-html
-Copy
-Edit
-<h2>Robotics Engineer at Rainier Labs</h2>
-<ul class="responsibility-list">
-    <li>Integrated NVIDIA Isaac ROS libraries...</li>
-</ul>
 Running Locally
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/portfolio.git
 Open index.html in a web browser to view the site locally. No server is required as it is a static site.
 
